@@ -1,0 +1,16 @@
+rofi.color-enabled: true
+!		   bg	           fg	     bgalt, hlbg       hlfg
+rofi.color-normal: argb:00000000, #D8DEE9, argb:00000000, argb:00000000 , #00FF7F
+rofi.color-urgent: argb:00000000,  #F99157 , argb:00000000,  #F99157 ,  #00FF7F
+rofi.color-active: argb:00000000,  #6699CC , argb:00000000,  #6699CC ,  #00FF7F
+rofi.color-window: argb:ee222222,  #FAC863 ,  #00FF7F
+rofi.separator-style: solid
+rofi.padding: 100
+rofi.lines: 5
+rofi.bw: 0
+rofi.columns: 1
+rofi.opacity: 80
+rofi.disable-history: true
+rofi.terminal: i3-sensible-terminal
+rofi.ssh-client: ssh
+rofi.ssh-command: {terminal} -e "{ssh-client} {host}"
