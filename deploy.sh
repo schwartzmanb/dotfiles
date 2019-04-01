@@ -6,6 +6,7 @@
 
 cp ./vimrc ~/.vimrc
 cp ./bashrc ~/.bashrc
+cp ./gitconfig ~/.gitconfig
 
 mkdir -p ~/.config
 mkdir -p ~/.config/i3
